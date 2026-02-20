@@ -5,76 +5,168 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="#71FD00"
     tools:context=".task2_layout">
 
-    <Button
-        android:id="@+id/signin"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button" />
-
-    <ImageView
-        android:id="@+id/imageView"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        app:srcCompat="@android:drawable/ic_menu_info_details" />
 
     <TextView
         android:id="@+id/userid"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:layout_width="164dp"
+        android:layout_height="41dp"
+        android:text="Mercy Waz Her3"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="561dp" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="112dp"
+        android:layout_height="149dp"
+        app:srcCompat="@drawable/screenshot_2026_02_06_141012"
+        tools:layout_editor_absoluteX="198dp"
+        tools:layout_editor_absoluteY="453dp" />
+
 
     <Button
         android:id="@+id/register"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Button" />
+        android:layout_width="360dp"
+        android:layout_height="109dp"
+        android:backgroundTint="#83FD0021"
+        android:rotation="77"
+        android:rotationX="-13"
+        android:rotationY="-2"
+        android:text="Click here if u want a v1rus"
+        android:textColor="#1A00FD"
+        android:textSize="32sp"
+        tools:layout_editor_absoluteX="165dp"
+        tools:layout_editor_absoluteY="444dp" />
 
     <TextView
         android:id="@+id/password"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="TextView" />
+        android:text="Edw1n Waz H3re"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="481dp" />
 
     <EditText
         android:id="@+id/passwordedit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="348dp"
+        android:layout_height="124dp"
         android:ems="10"
-        android:inputType="textPassword" />
+        android:inputType="textPassword"
+        android:rotation="86"
+        android:rotationX="-4"
+        android:text="LeBron James"
+        tools:layout_editor_absoluteX="107dp"
+        tools:layout_editor_absoluteY="502dp" />
 
-    <TextView
-        android:id="@+id/title"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:textSize="105sp"
-        android:text="TextView" />
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="271dp"
+        android:layout_height="35dp"
+        android:backgroundTint="#B800FDFB"
+        android:text="One"
+        android:textColor="#FD00C8"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="274dp"
+        android:layout_height="57dp"
+        android:backgroundTint="#B800FDFB"
+        android:text="of"
+        android:textColor="#FD00C8"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="130dp"
+        tools:layout_editor_absoluteY="62dp" />
+
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="372dp"
+        android:layout_height="42dp"
+        android:backgroundTint="#B800FDFB"
+        android:text="these"
+        android:textColor="#FD00C8"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="148dp" />
+
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="71dp"
+        android:layout_height="59dp"
+        android:text="Is a"
+        android:backgroundTint="#B800FDFB"
+        android:textColor="#FD00C8"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="277dp"
+        tools:layout_editor_absoluteY="187dp" />
+
+    <Button
+        android:id="@+id/signin"
+        android:layout_width="388dp"
+        android:layout_height="37dp"
+        android:backgroundTint="#B800FDFB"
+        android:text="Login"
+        android:textColor="#FD00C8"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="280dp" />
 
     <CheckBox
         android:id="@+id/rememberMe"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Checkbox" />
-
+        android:layout_width="352dp"
+        android:layout_height="58dp"
+        android:text="Check here if u want to allow me to get ur IP"
+        android:textStyle="bold|italic"
+        android:textSize="15sp"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="680dp" />
 
     <EditText
         android:id="@+id/useridedit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="220dp"
+        android:layout_height="81dp"
         android:ems="10"
         android:inputType="text"
-        android:text="Name" />
+        android:text="Nombre Aqui:"
+        android:textSize="30sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="7dp"
+        tools:layout_editor_absoluteY="363dp" />
+
     <View
         android:id="@+id/divider"
         android:layout_width="wrap_content"
         android:layout_height="1dp"
-        android:background="#888888" />
+        android:background="#888888"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="342dp" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="332dp"
+        android:layout_height="507dp"
+        android:text="W3lc0m3 2 y0uR W0r$T N1gh%m4r3"
+        android:textColor="#561900FD"
+        android:textSize="70sp"
+        tools:layout_editor_absoluteX="36dp"
+        tools:layout_editor_absoluteY="-5dp" />
 
     <TextView
         android:id="@+id/helperText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Forgot your password?" />
+        android:layout_width="231dp"
+        android:layout_height="55dp"
+        android:text="Forgot your password? Womp Womp"
+        android:textSize="20sp"
+        android:textStyle="bold|italic"
+        tools:layout_editor_absoluteX="3dp"
+        tools:layout_editor_absoluteY="625dp" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>
